@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "e:\\Xampp\\htdocs\\tugas pemograman web 1_hikam sirrul arifin_22552011066\\tugas_bootstraps\\index.html"
+        }
+    ]
+}

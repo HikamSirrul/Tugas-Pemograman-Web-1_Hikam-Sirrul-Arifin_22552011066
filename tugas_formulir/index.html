@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Kuliah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="post" class="registration-form">
+            <h2>Formulir Pendaftaran Kuliah</h2>
+            <p>Isi data diri dan pilihan jurusan dengan benar</p>
+
+            <div class="input-group">
+                <input type="text" id="nama" name="nama" required>
+                <label for="nama">Nama Lengkap</label>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" name="email" required>
+                <label for="email">Email</label>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="tel" id="telepon" name="telepon" required>
+                <label for="telepon">No. Telepon</label>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <select id="jk" name="jk" required>
+                    <option value="" disabled selected></option>
+                    <option value="laki-laki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+                <label for="jk">Jenis Kelamin</label>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <input type="date" id="tanggal" name="tanggal" required>
+                <label for="tanggal">Tanggal Lahir</label>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <textarea id="alamat" name="alamat" required></textarea>
+                <label for="alamat">Alamat</label>
+                <span class="bar"></span>
+            </div>
+
+            <div class="input-group">
+                <select id="jurusan" name="jurusan" required>
+                    <option value="" disabled selected></option>
+                    <option value="teknik-informatika">Teknik Informatika</option>
+                    <option value="teknik-industri">Teknik Industri</option>
+                    <option value="dkv">Desain Komunikasi Visual</option>
+                    <option value="bisnis-digital">Bisnis Digital</option>
+                    <option value="manajemen-ritel">Manajemen Ritel</option>
+                </select>
+                <label for="jurusan">Pilih Jurusan</label>
+                <span class="bar"></span>
+            </div>
+
+            <button type="submit" class="submit-btn">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tugas Table</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tugas Table</h1>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Cari Nama..." onkeyup="searchTable()">
+        </div>
+
+        <!-- Table -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Usia</th>
+                    <th>Kota</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Agus</td>
+                    <td>26</td>
+                    <td>Lampung</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bimo</td>
+                    <td>27</td>
+                    <td>Jakarta</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Zulfikar</td>
+                    <td>25</td>
+                    <td>Palembang</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Naufal</td>
+                    <td>23</td>
+                    <td>Bandung</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Eko</td>
+                    <td>20</td>
+                    <td>Blora</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <button onclick="prevPage()">Previous</button>
+            <span id="pageNumber">1</span>
+            <button onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+    <section>
+        <table border="1">
+            <caption>Tabel sederhana dengan menggunakan border.</caption>
+            <tr>
+                <td>Tabel sederhana dengan menggunakan border.</td>
+            </tr>
+        </table><br>
+
+        <table border="6">
+            <caption>Tabel sederhana dengan menggunakan border=6.</caption>
+            <tr>
+                <td>Tabel sederhana dengan menggunakan border=6.</td>
+            </tr>
+        </table><br>
+
+        <table border="5">
+            <caption>Tabel Kolom</caption>
+            <tr>
+                <td>Tabel Kolom Pertama</td>
+                <td>Tabel Kolom Kedua</td>
+                <td>Tabel Kolom Ketiga</td>
+            </tr>
+        </table><br>
+
+        <table border="1">
+            <caption>Judul Tabel dengan Caption</caption>
+            <tr>
+                <td>Tabel Kolom Pertama</td>
+                <td>Tabel Kolom Kedua</td>
+                <td>Tabel Kolom Ketiga</td>
+            </tr>
+            <tr>
+                <td>Tabel Kolom Pertama</td>
+                <td>Tabel Kolom Kedua</td>
+                <td>Tabel Kolom Ketiga</td>
+            </tr>
+        </table><br>
+    </section>
+</body>
+</html>

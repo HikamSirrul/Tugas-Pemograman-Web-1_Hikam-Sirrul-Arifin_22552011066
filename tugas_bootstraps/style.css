@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.header, .footer {
+    background-color: #6666ff;
+    color: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.content {
+    padding: 0; /* Menghilangkan padding di bagian konten */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    padding: 10px; /* Mengurangi padding di dalam kartu */
+    background-color: white;
+    margin-bottom: 0; /* Menghilangkan margin bawah pada setiap kartu */
+}
+
+.footer {
+    text-align: center;
+}
